@@ -1,1 +1,6 @@
 theme: jekyll-theme-slate
+
+plugins:
+   - liquid
+   - jekyll-redirect-from
+   - jekyll-sitemap

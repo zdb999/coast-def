@@ -1,1 +1,5 @@
-This is a test of what this project is all about.
+# About CoastDef: Our Goals and Principles
+
+## What is CoastDef
+
+## Who we are
