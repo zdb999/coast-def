@@ -1,6 +1,6 @@
 # Welcome to CoastDef
 
-## [About CoastDef: Our Values and Goals](about.md)
+## [Our Values and Goals](about.md)
 
 CoastDef, short for Flood Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
 
