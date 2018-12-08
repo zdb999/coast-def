@@ -6,7 +6,7 @@ Below you can find several tutorials illustrating various features of the CoastD
 
 The tutorials are read-only files, but you can download a copy to your Google Drive and edit them to your heart's content. (If you are interesting in contributing to the documentation, email ___ to get access.) All of this can be done in your browser, making it the easiest and quickest way to explore CoastDef's functionality. We would encourage you to use Colab for your own small to medium-sized projects, as a local install is often more of a hassle.
 
-## Using the Google Colab Environment
+## [Using the Google Colab Environment](https://colab.research.google.com/drive/1_0oFoE9svyGNdtWJNRWvAowjIsnhreFx)
 
 This tutorial offers an introduction to the Google Colab's notebook setup. We install the CoastDef package and it's dependencies, and we show the user how to get files in and out of the Colab workspace. We briefly introduce some of the capacities of Python, as well as running Bash commands in a !bang format. Experienced programmers can probably skip this.
 
