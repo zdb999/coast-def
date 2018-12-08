@@ -4,11 +4,11 @@ CoastDef, short for Flood Defense, is a modeling tool that helps scientists, eng
 
 CoastDef focuses on two questions. First, it aims to model where storm surges cause flooding using geospatial analysis. Secondly, it hopes to help us design sensible adaptation strategies by weighing the costs and benefits of flood control infrastructure. For more on our values and goals, click [here](about.md).
 
-## [Installation](install.md)
+## [Installation](docs/install.md)
 
 These instructions focus on installing CoastDef on your local machine. It also discusses using [Google Colab](https://colab.research.google.com/notebooks/welcome.ipynb) for projects, though the first tutorial goes into greater detail.
 
-## [Tutorials](tutorials.md)
+## [Tutorials](docs/tutorials.md)
 
 Our tutorials illustrate the core functionality of the CoastDef package. This is the best place to get started, and looking here first will make our more abstract documentation easier to understand. The tutorials illustrate the entire modeling pipeline, with a case study of Bridgeport, Connecticut. This is also a good place to copy initial code from when you're starting a new project.
 
