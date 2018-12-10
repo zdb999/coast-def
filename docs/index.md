@@ -3,7 +3,7 @@
 
 ## [Our Values and Goals](about.md)
 
-$$ f(x) = x^3 - x^2 + 1 $$
+\[f(x) = x^4 - x^2\]
 
 I add some more.
 
