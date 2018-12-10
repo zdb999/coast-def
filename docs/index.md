@@ -1,10 +1,11 @@
 # Welcome to CoastDef
 
-$$ f(x) = x^3 - x^2 + 1 $$
-
-Blah blah
 
 ## [Our Values and Goals](about.md)
+
+$$ f(x) = x^3 - x^2 + 1 $$
+
+I add some more.
 
 CoastDef, short for Flood Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
 
