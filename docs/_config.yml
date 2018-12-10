@@ -2,4 +2,5 @@ theme: jekyll-theme-minimal
 
 email: example@example.com
 
-mathjax: true
+plugins:
+  - jekyll-sitemap
