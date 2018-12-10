@@ -1,11 +1,10 @@
 # Welcome to CoastDef
 
-
- <script type="text/javascript" src="_include/mathjax_support.js" ></script>
-
 ## [Our Values and Goals](about.md)
 
 $$ f(x) = x^4 - x^2 $$
+
+That is $ x $ iting.
 
 Yeah it works!
 
