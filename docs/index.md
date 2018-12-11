@@ -2,12 +2,6 @@
 
 ## [Our Values and Goals](about.md)
 
-$$ f(x) = x^4 - x^2 $$
-
-That is $ x $ iting.
-
-Yeah it works!
-
 CoastDef, short for Flood Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
 
 CoastDef focuses on two questions. First, it aims to model where storm surges cause flooding using geospatial analysis. Secondly, it hopes to help us design sensible adaptation strategies by weighing the costs and benefits of flood control infrastructure.
@@ -26,6 +20,6 @@ Our tutorials illustrate the core functionality of the CoastDef package. This is
 
 Here are all of the details on CoastDef's built in functions, methods, classes, and workflow. This area is under construction; for the moment, the tutorials are probably more reliable.
 
-## Modeling
+## [Modeling](model_explanation.md)
 
 This provides both academic justification for the choices we made in our standard sample model and advice for making your own models. We also discuss some of the weaknesses of our standard model.
