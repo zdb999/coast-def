@@ -54,8 +54,11 @@ This equation expressing the calculation of utility consider $k_{1}$ as the prob
 One of the most important features of any model aiming to include a cost benefit analysis is to be able to calculate the value of future costsand benefits in an easily understandable and comparable way. For this project we have decided to you an yearly discounting model to calculate these values. 
 
 $$ P[\frac{1-(1+r)^{-n})}{r}] $$
+
 $ P = value per Year $
+
 $ r = annual discount rate $
+
 $ n = number of years $
 
 Here's a good [site](http://financeformulas.net/Present_Value_of_Annuity.html).
