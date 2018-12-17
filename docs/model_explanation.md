@@ -73,7 +73,7 @@ This calculation makes it possible to consider benefit over a long period of tim
 
 ## Wall Cost Calculations
 
-$$ PC_{S,T}^{AN}=\frac{U\text{\texttimes}L\text{\texttimes}l\text{\texttimes}(S+MHHW)}{T}*(101\%%) $$
+$$ PC_{S,T}^{AN}=\frac{U\text*L\text*l\text*(S+MHHW)}{T}*(101)\%%) $$
 
 # Sources
 
