@@ -89,10 +89,15 @@ Another source used a much more complicated cost function for the development of
 $$ PC_{S,T}^{AN}=\frac{U\text*L\text*l\text*(S+MHHW)}{T}*(101)\%%) $$
 
 $ PC $ = protection costs given S (sea level rise) and T (projection year)
+
 $ U $ = unit cost of building the wall
+
 $ L $ = coastal protection ratio
+
 $ I $ = total length of coastline for the wall to be implemented
+
 $ S $ = sea level rise
+
 $ MHHW $ = mean higher high water level 
 
 This calculation serves to predict the cost of creating and maintaining a seawall on a yearly basis. The study then takes this data and creates a present value for all years by summing the values and using an annual discount factor. Shown below:
