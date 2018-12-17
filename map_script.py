@@ -8,15 +8,15 @@ from coastdef.geo import make_extent_layer
 
 e1 = cv2.getTickCount()
 
-make_extent_layer('test2.tiff', [(5000, 4000)], 14)
+make_extent_layer('sample_data/test2.tiff', [(5000, 4000)], 14)
 
-# animate_flood('test2.tiff', [(5000, 4000)], 98, 100, 1, 1)
+# animate_flood('sample_data/test2.tiff', [(5000, 4000)], 98, 100, 1, 1)
 
-# animate_flood2('test4.tiff', [(850, 850)], 0, 84, 1, 12)
+# animate_flood2('sample_data/test4.tiff', [(850, 850)], 0, 84, 1, 12)
 
-# make_extent_layer('test.tiff', [(5, 5)], 37)
+# make_extent_layer('sample_data/test.tiff', [(5, 5)], 37)
 
-# animate_flood('test.tiff', [(5, 5), (650,1050), (1050,650)], 3, 83, 1, 10)
+# animate_flood('sample_data/test.tiff', [(5, 5), (650,1050), (1050,650)], 3, 83, 1, 10)
 
 # from osgeo import ogr, osr
 # driver = ogr.GetDriverByName('ESRI Shapefile')

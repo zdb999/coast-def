@@ -102,7 +102,7 @@ def animate_flood2(dem_path, water_points, low, high, step, duration):
 
   frame = np.full((h,w,3), 255, np.uint8)
 
-  back = cv2.imread('Seaside.tif') 
+  back = cv2.imread('sample_data/Seaside.tif') 
   back = cv2.cvtColor(back, cv2.COLOR_BGR2RGB)
 
   # Create and write frames
