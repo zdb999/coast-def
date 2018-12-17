@@ -5,6 +5,8 @@ from cv2 import VideoWriter
 from PIL import ImageFont, ImageDraw, Image
 import utils
 import geo
+gdal.UseExceptions()
+
 
 def add_text_overlay(image, text, origin, size, font, color):
   # Load image in OpenCV  

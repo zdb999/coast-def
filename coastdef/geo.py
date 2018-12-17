@@ -4,6 +4,7 @@ from osgeo import gdal, gdalnumeric, ogr, osr
 from cv2 import VideoWriter
 from PIL import ImageFont, ImageDraw, Image
 import coastdef.utils as utils
+gdal.UseExceptions()
 
 
 def world2Pixel(geoMatrix, x, y):
@@ -57,24 +58,34 @@ def flood_extent(dem, points, height):
   # modifiy it to allow edge contour completion, and compile it 
   # ourselves. This could save some time and memory
 
-  contours, hierarchy = cv2.findContours(dummy,cv2.RETR_TREE,cv2.CHAIN_APPROX_NONE)
+  contours, hier = cv2.findContours(dummy,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 
   # Enable more garbage collection
   del dummy
-  del hierarchy
 
   # Go through each water point, and see what contours contain it.
   # Keep track of the contours contours found
 
   water_cnts = []
+  water_cnt_indeces = []
+
+  # Get ride of useless dimension
+
+  hier = hier[0,:,:]
+
+  # Undo the shift that occured with dummy. Sadly we can't vectorize this.
+
+  for c in contours:
+
+      c[:,0,:] = c[:,0,:] -2 
+
+  # Check water points
 
   for point in points:
 
     found_cnt_count = 0
 
     for i, c in enumerate(contours):
-
-      c[:,0,:] = c[:,0,:] -2 # Undo the shift that occured with dummy
 
       if cv2.pointPolygonTest(c, point, False) > 0: 
         area = cv2.contourArea(c)
@@ -91,17 +102,68 @@ def flood_extent(dem, points, height):
 
     if found_cnt_count > 1:
       water_cnts.append(cnt)
+      water_cnt_indeces.append(index)
 
   # Generate output
 
-  out = np.full((h,w), 255, np.uint8)
-  cv2.fillPoly(out, water_cnts, (0))
+  out_img = np.full((h,w), 255, np.uint8)
+  cv2.fillPoly(out_img, water_cnts, (0))
 
-  # Take into account the possiblity of islands
+  # Take into account the possiblity of islands, lakes on islands, etc
 
-  out = cv2.bitwise_or(thresh.astype(np.uint8), out)
+  fixes_todo = []
 
-  return out
+  # Check each valid water contour for this condition, add fixes for children
+
+  for cnt_index in water_cnt_indeces:
+
+    child = hier[cnt_index][2]
+
+    if child != -1: # Child exists
+
+      # is_island must be true as we are in the top level
+
+      fixes_todo.append((child, True)) #(cnt_index, is_island)
+
+  while fixes_todo != []:
+
+    # find the line in the hierarchy for the cnt, child, sibling find cnt
+    cnt_index, is_island = fixes_todo.pop()
+    cnt = contours[cnt_index]
+    child = hier[cnt_index][2]
+    sibling = hier[cnt_index][0]
+
+    # Make adjustment to image
+
+    # Always fill in island
+
+    if is_island:
+      cv2.fillPoly(out_img, [cnt], (255))
+
+    # Don't fill in depression unless there is a water point there
+
+    else:
+      for point in points:
+        if cv2.pointPolygonTest(c, point, False) > 0:
+          cv2.fillPoly(out_img, [cnt], (0))
+
+    # Add child to stack
+
+    if child != -1: # Child exists
+
+      child_is_island = not is_island
+      fixes_todo.append((child, child_is_island))
+
+    # Add sibiling to stack
+
+    if sibling != -1: # Sibling exists
+
+      fixes_todo.append((sibling, is_island))
+
+
+  cv2.drawContours(out_img, contours, -1, (255,255,0), 2)
+
+  return out_img
 
 
 def make_extent_layer(dem_path, water_points, height, out_path = "flood_extent"):

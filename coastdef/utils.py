@@ -6,6 +6,7 @@ import os
 import sys
 import numpy as np
 from osgeo import gdal, gdalnumeric, ogr, osr
+gdal.UseExceptions()
 
 # Find the path of the script running the software
 
