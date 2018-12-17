@@ -77,7 +77,7 @@ Another approach is to try to learn a surge height probability density function 
 
 ### Sea Level Rise
 
-Maybe come back here.
+There is a lot of uncertainty extrapolated climate models, and we capture this uncertainty. CoastDef has built-in functions representing NOAA Global Mean Sea Level projections under multiple scenarios. There are also built-in functions adapting those models to the local circumstances in Conneticut. Your model can be a weighted mix of these models, or you can develop your own. You can even "train" your model on actual data using Bayesian inference.
 
 ### Wall Costs
 
