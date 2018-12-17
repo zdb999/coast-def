@@ -49,6 +49,8 @@ $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider $k_{1}$ as the probability the discharges are less than $ Q_{0} $. $ k_{2} $ being the probability the discharge is greater than $ Q_{T} $. 
 
+Using this 
+
 We have decided from the research presented above to use a Von-Neumann Morgenstein expected-utility model to consider risk aversion. This means that we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster.
 
 ## Present Value Calculations
