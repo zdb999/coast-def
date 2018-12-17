@@ -10,3 +10,7 @@ CoastDef was started by Zach Balleisen and Briggs Bulkeley. The two began to wor
 ## Who we are
 
 Zach and Briggs are both seniors at Yale University. Zach is pursuing a double major in Mechanical Engineering and Cognative Science. Briggs is double majoring in Economics and Mechanical Engineering. 
+
+## What is a living project?
+
+
