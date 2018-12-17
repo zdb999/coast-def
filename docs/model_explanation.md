@@ -46,4 +46,4 @@ $$ +\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ $$
 
 $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
-This equation expressing the calculation of utility consider k_{1} as the probabilty the discharges lsss than Q_{0} k_{2} being the probability the discharge is greater than Q_{T}. 
+This equation expressing the calculation of utility consider $k_{1}$ as the probabilty the discharges lsss than $Q_{0}$. $k_{2}$ being the probability the discharge is greater than $Q_{T}$. 
