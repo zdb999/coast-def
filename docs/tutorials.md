@@ -12,12 +12,12 @@ This tutorial offers an introduction to the Google Colab's notebook setup. We in
 
 ## Preprocessing Your Data
 
-Here we import some sample project data from Bridgeport Connecticut. (For advice on aquiring data, see Finding Data Sources___.)  We combine parcel appraisals for and structure outlines to isolate building values, and use those building outlines to produce a "building free DEM." We to add wall data to the model, and use "water points" to calculate flooding extents for a certain elevation height. We use this to make a short video, showing how increasing storm surges will affect flooding in Bridgeport, with or without a coastal wall.
+Here we import some sample project data from Bridgeport Connecticut. (For advice on aquiring data, see [Finding Data Sources](finding_data_sources.md). We combine parcel appraisals for and structure outlines to isolate building values, and use those building outlines to produce a "building free DEM." We to add wall data to the model, and use "water points" to calculate flooding extents for a certain elevation height. We use this to make a short video, showing how increasing storm surges will affect flooding in Bridgeport, with or without a coastal wall.
 
 ## Making a Model
 
-Explain this.
+Coming soon.
 
 ## Using Emperical Data in Your Models
 
-Explain this, with toy data and discussion of MCMC.
+When the library is sufficiently fleshed out, we will give several examples of several modeling methodologies. We will also supply toy data and an introductory discussion of [MCMC](https://twiecki.github.io/blog/2015/11/10/mcmc-sampling/).

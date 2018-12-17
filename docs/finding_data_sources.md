@@ -48,7 +48,9 @@ You can input as many water points as you like, and sometimes having multiple po
 
 ### Property Values 
 
+Property values data is very siloed, and the few people (Realtors) who have comprehensvie databases gaurd them furiously. The best source of structural value data is your local appraiser; tax data is usually a mater of public record. Many jursitictions also post GIS data files online; however, everyone's format and schema are a bit different. If you want accurate results, you will probably have to invest some time and effort into aquiring, cleaning, and integrating data.
 
+There are two notable national sources that would be particularly useful when modeling how housing values change over time. (The are too coarse to give good estimates about induvidual houses.) The first is [Zillow](https://www.zillow.com/research/data/), which has a tremendous amount of data about real estate transactions, which they make partially availible to the public. The seccond is the Federal Housing Finance Agency's [House Price Index (HPI)](https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index.aspx), a particularly valueable tool for including housing trends in your models.
 
 ### Structure Outlines Data
 
@@ -69,11 +71,37 @@ This is another thing you have to make yourself with GIS. Your wall data should 
 
 ### Surge Height Distributions
 
+One potential source of data for the surge heights is the NOAA SLOSH model, which has some of the most accurate storm surge predictions in the United States. Data derived from this model is incorporated into FEMA's floodmaps. However, finding the raw data has proven to be difficult, and we have been unable to include SLOSH simulation results in our system.
+
+Another approach is to try to learn a surge height probability density function (pdf) from water elevation data. We are currently in the processes of developing such a function.
+
 ### Sea Level Rise
+
+Maybe come back here.
 
 ### Wall Costs
 
+We have a reasonably robust basic wall cost formulation which you are welcome to use. However, it relies on empirical values which may not hold in your region or for your desired wall type. Developing a good wall function expression will require estimates of construction, eminent domain, and maintenance costs. Often, these values are matters of public record; you can also reach out to engineering firms back-of-the-envelope approximations. Infrastructure spending has a lot of uncertainty, and we are capable of representing construction cost variability in our modeling framework.
+
+You will need to supply a function $ f(x)$  which gives the cost of the wall per linear unit, as a function of the elevation and wall height. CoastDef will then compute the total cost by solving the line integral 
+
+$$C=\intop_{x_{1}}^{x_{2}}f(x(t),y(t))dt
+ $$
+
+Where $x(t)$ and $y(t)$ are parametrized equations for the the wall. To have a constant cost per unit left, just ignore the height and elevation variables and use,
+
+$f(x)=const$
+
+Most functionals will have a constant component to represent eminent domain costs.
+
+### Damage Estimates
+
+Or current approach assumes there is a linear relationship between the percentage of a building submerged and the damage to that building. This basic approach also seems to be used in FEMA's damage evaluation process. Nevertheless, you are free to substitute your own non-linear function if you wish.
+
 ### Social Costs of Flooding
+
+Far to often, things that are difficult to measure just don't get counted. This produces injustice and bad policy. One of the goals of our open-ended modeling structure is to encourage people to find new and creative ways to analyze the social, cultural, and political aspects of the human coastal ecosystem. This part of our standard model is still under development.
+
 
 ### Risk Aversion
 
