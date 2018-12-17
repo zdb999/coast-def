@@ -16,10 +16,14 @@ These instructions focus on installing CoastDef on your local machine. It also d
 
 Our tutorials illustrate the core functionality of the CoastDef package. This is the best place to get started, and looking here first will make our more abstract documentation easier to understand. The tutorials illustrate the entire modeling pipeline, with a case study of Bridgeport, Connecticut. This is also a good place to copy initial code from when you're starting a new project.
 
-## Syntax Documentation
+## [Finding Data Sources](finding_data_sources.md)
 
-Here are all of the details on CoastDef's built in functions, methods, classes, and workflow. This area is under construction; for the moment, the tutorials are probably more reliable.
+What data do you need to use CoastDef, and why? How can you get it? This section provides an overview of the input data that CoastDef needs. Along the way, it gives a quick explanation of CoastDef's algorithms. More in depth explanations are located in code comments and doc strings.
 
 ## [Modeling](model_explanation.md)
 
 This provides both academic justification for the choices we made in our standard sample model and advice for making your own models. We also discuss some of the weaknesses of our standard model.
+
+## API Syntax Documentation
+
+Here are all of the details on CoastDef's built in functions, methods, classes, and workflow. This area is under construction; for the moment, the tutorials are probably more reliable.
