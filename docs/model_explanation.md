@@ -36,10 +36,10 @@ $$ W_{3}=A+L-PC-0.02X; 10,000<X<C<L $$
 
 $$ W_{4}=A+L-PC-0.02X-(X-C); 10,000<C≤X<L $$
 
-$$ E[U(Y)=(1-exp\{-\alpha W_{0}[X(Q_{0})]\})k_{1}
-+\intop_{Q_{a}}^{Q_{b}}(1-exp\{\alpha W_{2}[X(Q)]\})f(Q)dQ
-+\intop_{Q_{b}}^{Q_{c}}(1-exp\{-\alpha W_{3}[X(Q)]\})f(Q)dQ
-+\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ
-+(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
+$$ E[U(Y)=(1-exp\{-\alpha W_{0}[X(Q_{0})]\})k_{1} $$
+$$ +\intop_{Q_{a}}^{Q_{b}}(1-exp\{\alpha W_{2}[X(Q)]\})f(Q)dQ $$
+$$ +\intop_{Q_{b}}^{Q_{c}}(1-exp\{-\alpha W_{3}[X(Q)]\})f(Q)dQ $$
+$$ +\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ $$
+$$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider k_{1} as the probabilty the discharges lsss than Q_{0} k_{2} being the probability the discharge is greater than Q_{T}. 
