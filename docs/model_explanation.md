@@ -73,7 +73,33 @@ This calculation makes it possible to consider benefit over a long period of tim
 
 ## Wall Cost Calculations
 
+
+Creating a cost analysis for building coastal walls can be very tricky. Many different projects have used very different approaches to predicting costs. Every project has different requirements, designs necessities, and locations. All of these factors specifically the terrain at a location can cause the cost of construction to vary greatly between difference sites or even between different spots along the same wall. For example, building a wall along a wetland causes complications when trying to set concrete into the ground that do not exist when working with dry firm soil. The added costs of better materials and more excavation work lead to increased costs and a different cost function. This variance makes it impossible to create one equation for construction costs that accurately represents all coastal wall designs. For that very reason, our dynamic model has the capability to substitute separate cost functions seamlessly in order to better represent the cost function associated with that specific projected plan. 
+
+Examples of the various cost functions that can be used are as follows…
+
+The model provided by professor Mendelsohn used a cost function that varied linearly with the length of the desired wall and exponentially becoming more expensive with increases in the height. The cost function was…
+
+C( H,L ) =3881.4* H 2 *L 
+
+The basic understanding of this function is that for every cubic meter of material required to for the wall the price increased $3,881.4. 
+
+Another source used a much more complicated cost function for the development of sea walls. 
+
 $$ PC_{S,T}^{AN}=\frac{U\text*L\text*l\text*(S+MHHW)}{T}*(101)\%%) $$
+
+$ PC $ = protection costs given S (sea level rise) and T (projection year)
+$ U $ = unit cost of building the wall
+$ L $ = coastal protection ratio
+$ I $ = total length of coastline for the wall to be implemented
+$ S $ = sea level rise
+$ MHHW $ = mean higher high water level 
+
+This calculation serves to predict the cost of creating and maintaining a seawall on a yearly basis. The study then takes this data and creates a present value for all years by summing the values and using an annual discount factor. Shown below:
+
+
+This is an example of all of the different factors that one can decide to include in their cost function. The dynamic model can then quickly input this new function and provide a new analysis based on the function.
+
 
 # Sources
 
