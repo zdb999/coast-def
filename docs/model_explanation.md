@@ -24,14 +24,14 @@ Our risk aversion analysis draws heavily from the paper conducted by Attanasi an
 The greatest challenge of quantifying risk aversion comes from the sometimes irrational behavior of individuals. In these two paper (Insert citation), the authors establish that individuals struggle to comprehend the damage that can be associated with very destructive infrequent storms. This irrational behavior leads to results that often do not match the hypothesis of the Von-Neumann Morgenstein expected-utility model. However, the goal of Coast-Def is to rationally assess the damages and weigh the potential benefit from investing significantly in infrastructure. 
 
 
-$$ W_{0}=A+L-PC $$
+$$ W_{0}=A+L-PC; X=0$$
 
-$$ W_{1}=A+L-PC-X $$
+$$ W_{1}=A+L-PC-X; 0<X<200 $$
 
-$$ W_{2}=A+L-PC-200 $$
+$$ W_{2}=A+L-PC-200; 200<X≤10,000 $$
 
-$$ W_{3}=A+L-PC-0.02X $$
+$$ W_{3}=A+L-PC-0.02X; 10,000<X<C<L $$
 
-$$ W_{4}=A+L-PC-0.02X-(X-C) $$
+$$ W_{4}=A+L-PC-0.02X-(X-C); 10,000<C≤X<L $$
 
 $$ E[U(Y)=(1-exp\{-\alpha W_{0}[X(Q_{0})]\})k_{1}+\intop_{Q_{a}}^{Q_{b}}(1-exp\{\alpha W_{2}[X(Q)]\})f(Q)dQ+\intop_{Q_{b}}^{Q_{c}}(1-exp\{-\alpha W_{3}[X(Q)]\})f(Q)dQ+\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ+(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
