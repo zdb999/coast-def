@@ -26,12 +26,12 @@ The greatest challenge of quantifying risk aversion comes from the sometimes irr
 
 $$ W_{0}=A+L-PC $$
 
-W_{1}=A+L-PC-X
+$$ W_{1}=A+L-PC-X $$
 
-W_{2}=A+L-PC-200
+$$ W_{2}=A+L-PC-200 $$
 
-W_{3}=A+L-PC-0.02X
+$$ W_{3}=A+L-PC-0.02X $$
 
-W_{4}=A+L-PC-0.02X-(X-C)
+$$ W_{4}=A+L-PC-0.02X-(X-C) $$
 
-E[U(Y)=(1-exp\{-\alpha W_{0}[X(Q_{0})]\})k_{1}+\intop_{Q_{a}}^{Q_{b}}(1-exp\{\alpha W_{2}[X(Q)]\})f(Q)dQ+\intop_{Q_{b}}^{Q_{c}}(1-exp\{-\alpha W_{3}[X(Q)]\})f(Q)dQ+\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ+(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2}
+$$ E[U(Y)=(1-exp\{-\alpha W_{0}[X(Q_{0})]\})k_{1}+\intop_{Q_{a}}^{Q_{b}}(1-exp\{\alpha W_{2}[X(Q)]\})f(Q)dQ+\intop_{Q_{b}}^{Q_{c}}(1-exp\{-\alpha W_{3}[X(Q)]\})f(Q)dQ+\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ+(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
