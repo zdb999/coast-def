@@ -23,34 +23,7 @@ We have not yet developed a setup to add CoastDef to your Python enviroment vari
 
 As shown in [this tutorial](https://colab.research.google.com/drive/1_0oFoE9svyGNdtWJNRWvAowjIsnhreFx), it is currently mutch easier to run CoastDef in a virtual, Cloud-based enviroment. We recoment Google Colab. It's free, easy to use, and facilitates teamwork. Colab is also based on open source [Jupyter notebooks](https://www.dataquest.io/blog/jupyter-notebook-tutorial/).
 
-To set up the latest version of CoastDef in Colab, simply copy this script into a Colab code block and run it.
-
-``import os
-import sys
-installed = True
-``
-``
-try:
-  import gdal
-  import pymc3
-  import coastdef
-except:
-  installed = False
-  !apt-get update >/dev/null
-  !apt-get install libgdal-dev -y >/dev/null
-  !apt-get install python-gdal -y >/dev/null
-  !pip install -r coast-def/requirements.txt > /dev/null
-  sys.path.insert(0,'/content/coast-def/')
-``
-``
-if not os.path.isdir("coast-def"):
-  installed = False
-  !git clone https://github.com/zdb999/coast-def.git >/dev/null
-if installed:
-  print "Everything is already installed!"
-else:
-  print "Install complete!``
-``
+To set up the latest version of CoastDef in Colab, simply copy the script from the tutorial into a Colab code block and run it.
 
 # GIS Software
 
