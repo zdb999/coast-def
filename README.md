@@ -22,4 +22,4 @@ This provides both academic justification for the choices we made in our standar
 
 ## Syntax Documentation
 
-Here are all of the details on CoastDef's built in functions, methods, classes, and workflow. This area is under construction; for the moment, the tutorials are probably more reliable.
+Here are all of the details on CoastDef's built in functions, methods, classes, and workflow. This area is under construction; for the moment, the tutorials are a better place to go.
