@@ -47,3 +47,13 @@ $$ +\intop_{Q_{c}}^{Q_{T}}(1-exp\{\alpha W_{4}[X(Q)]\})f(Q)dQ $$
 $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider $k_{1}$ as the probabilty the discharges lsss than $Q_{0}$. $k_{2}$ being the probability the discharge is greater than $Q_{T}$. 
+
+
+## Present Value Calculations
+
+One of the most important features of any model aiming to include a cost benefit analysis is to be able to calculate the value of future costsand benefits in an easily understandable and comparable way. For this project we have decided to you an yearly discounting model to calculate these values. 
+
+$$ P[\frac{1-(1+r)^{-n})}{r}] $$
+$ P = value per Year $
+$ r = annual discount rate $
+$ n = number of years $
