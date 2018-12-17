@@ -57,8 +57,6 @@ $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider $k_{1}$ as the probability the discharges are less than $ Q_{0} $. $ k_{2} $ being the probability the discharge is greater than $ Q_{T} $. 
 
-Using these equations 
-
 We have decided from the research presented above to use a Von-Neumann Morgenstein expected-utility model to consider risk aversion. This means that we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster.
 
 ## Present Value Calculations
@@ -97,5 +95,3 @@ National Hurricane Center. “Sea, Lake, and Overland Surges from Hurricanes (SL
 NOAA. “Station Home Page - NOAA Tides & Currents.” Government Resource. Tides and Currents. Accessed December 17, 2018. [https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150](https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150).
 
 O’Donnell , James. “Sea Level Rise in Connecticut.” Department of Marine Sciences a nd Connecticut Institute for Res ilience and Climate Adaptation, March 27, 2018. [https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf](https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf).
-
-Yaworsky, Lauren. “Sea Level Rise Projections for the State of Connecticut | Draft Report Released | Connecticut Institute for Resilience & Climate Adaptation (CIRCA).” Accessed December 17, 2018. [https://circa.uconn.edu/2018/03/27/sea-level-rise-projections-for-the-state-of-connecticut-webinar-recording-available/](https://circa.uconn.edu/2018/03/27/sea-level-rise-projections-for-the-state-of-connecticut-webinar-recording-available/).
