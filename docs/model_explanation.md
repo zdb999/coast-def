@@ -57,3 +57,5 @@ $$ P[\frac{1-(1+r)^{-n})}{r}] $$
 $ P = value per Year $
 $ r = annual discount rate $
 $ n = number of years $
+
+Here's a good [site](http://financeformulas.net/Present_Value_of_Annuity.html).
