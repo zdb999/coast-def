@@ -90,7 +90,7 @@ $$C=\intop_{x_{1}}^{x_{2}}f(x(t),y(t))dt
 
 Where $x(t)$ and $y(t)$ are parametrized equations for the the wall. To have a constant cost per unit left, just ignore the height and elevation variables and use,
 
-$f(x)=const$
+$$ f(x)=const $$
 
 Most functionals will have a constant component to represent eminent domain costs.
 

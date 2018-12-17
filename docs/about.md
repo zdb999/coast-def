@@ -2,8 +2,9 @@
 
 ## What is CoastDef
 
-This project was started by Zach Balleisen and Briggs Bulkeley. The two began to work on this project with the goal of creating a tool that wholistically weighs the costs and benefits to society of constructing coastal walls and implementing resiliency strategies. The collaborative model is intended to expand in scope and functionality as a living tool. The code utilizes GitHub and GoogleColab to act as a living tool in the way that people can contribute new features easily to improve upon the functionality and relevance of the model for this desired analysis. This model seeks to fulfill a that currently exists in resilience engineering
+CoastDef was started by Zach Balleisen and Briggs Bulkeley. The two began to work on this project with the goal of creating a tool that holistically weighs the costs and benefits of constructing coastal flood walls walls and implementing resiliency strategies. The collaborative model is intended to expand in scope and functionality as a living design tool tool, that enables  experimentation, collaboration, and education.
 
+ CoastDef is an open source project. It lies at the intersection of many fields, sereving architects, policymakers, town engineers, scientists,  students, and citizens. We want people to use our work, and to contriubute their inovatoins back to the community.  We believe in strong documentation that enables people to get started quickly, contribute new features, and improve upon the existing functionality.
 
 
 ## Who we are
