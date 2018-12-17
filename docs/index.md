@@ -1,9 +1,5 @@
 # Welcome to CoastDef
 
-### Storm Surges in Bridgeport Simulated by CoastDef
-
-<iframe src="https://drive.google.com/file/d/14kjKVtHsKvgXjFv_zltGBmlOnt6Wuf9_/preview" width="640" height="480"></iframe>
-
 ## [Our Values and Goals](about.md)
 
 CoastDef, short for Flood Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
