@@ -6,11 +6,12 @@ CoastDef was started by Zach Balleisen and Briggs Bulkeley. The two began to wor
 
  CoastDef is an open source project. It lies at the intersection of many fields, sereving architects, policymakers, town engineers, scientists,  students, and citizens. We want people to use our work, and to contriubute their inovatoins back to the community.  We believe in strong documentation that enables people to get started quickly, contribute new features, and improve upon the existing functionality.
 
-
 ## Who we are
 
-Zach and Briggs are both seniors at Yale University. Zach is pursuing a double major in Mechanical Engineering and Cognative Science. Briggs is double majoring in Economics and Mechanical Engineering. 
+Zach and Briggs are both seniors at Yale University. Zach is pursuing a double major in Mechanical Engineering and Cognative Science. Briggs is double majoring in Economics and Mechanical Engineering. We started CoastDef as our senior project in Mechanical Engineering, but intend to continue it in the future.
 
 ## What is a living project?
 
+We hope that CoastDef will continue to grow and improve with time. We want to be useful, and our efforts have focused on providing value to teams which have tried to use the model. We want to facilitate adaptive design, and doing so will require making our tools addapitve.
 
+CoastDef does not yet have full functionality, and is not complete. This is by design. Unlike many academic projects, CoastDef doesn't have a defined endpoint or a definative final report. Rather, we am to share and document everything we do; our Github repository offers a snapshot of the current state of the project.
