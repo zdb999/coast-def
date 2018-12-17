@@ -76,14 +76,26 @@ This calculation makes it possible to consider benefit over a long period of tim
 
 # Sources
 
-Attanasi, E. D., and M. R. Karlinger. “Risk Preferences and Flood Insurance.” American Journal of Agricultural Economics 61, no. 3 (1979): 490–95. (https://doi.org/10.2307/1239435).
-Borsje, B. W., B. K. Van Wesenbeeck, F. Dekker, P. Paalvast, T. J. Bouma, M. M. van Katwijk, and M. B. de Vries. “How Ecological Engineering Can Serve in Coastal Protection.” 122, 2011. [https://repository.ubn.ru.nl/handle/2066/91900].
-Connecticut Department of Energy & Environmental Protection. “CT ECO 2016 Imagery & Elevation.” Government Resource. University of Connecticut. Accessed December 17, 2018. https://cteco.uconn.edu/data/flight2016/index.htm.
-Felson, Alexander. “Designed Experiments for Transformational Learning: Forging New Opportunities Through the Integration of Ecological Research Into Design.” ResearchGate. Accessed December 17, 2018. https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design.
-Kunreuther, Howard. Limited Knowledge and Insurance Protection: Implications for Natural Hazard Policy. Springfield, Va.: National Technical Information Service, 1977. https://catalog.hathitrust.org/Record/102012993.
+Attanasi, E. D., and M. R. Karlinger. “Risk Preferences and Flood Insurance.” American Journal of Agricultural Economics 61, no. 3 (1979): 490–95. [https://doi.org/10.2307/1239435](https://doi.org/10.2307/1239435).
+
+Borsje, B. W., B. K. Van Wesenbeeck, F. Dekker, P. Paalvast, T. J. Bouma, M. M. van Katwijk, and M. B. de Vries. “How Ecological Engineering Can Serve in Coastal Protection.” 122, 2011. [https://repository.ubn.ru.nl/handle/2066/91900](https://repository.ubn.ru.nl/handle/2066/91900).
+
+Connecticut Department of Energy & Environmental Protection. “CT ECO 2016 Imagery & Elevation.” Government Resource. University of Connecticut. Accessed December 17, 2018. [https://cteco.uconn.edu/data/flight2016/index.htm](https://cteco.uconn.edu/data/flight2016/index.htm).
+
+Felson, Alexander. “Designed Experiments for Transformational Learning: Forging New Opportunities Through the Integration of Ecological Research Into Design.” ResearchGate. Accessed December 17, 2018. [https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design](https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design).
+
+Kunreuther, Howard. Limited Knowledge and Insurance Protection: Implications for Natural Hazard Policy. Springfield, Va.: National Technical Information Service, 1977. [https://catalog.hathitrust.org/Record/102012993](https://catalog.hathitrust.org/Record/102012993).
+
 Kunreuther, Howard, Ralph Ginsberg, Louis Miller, Philip Sagi, Paul Siovic, Bradley Borkan, and Norman Katz. “LIMITED KNOWLEDGE AND INSURANCE PROTECTION,” n.d., 508.
+
 Kunreuther, Howard, and Paul Slovic. “Economics, Psychology, and Protective Behavior.” The American Economic Review 68, no. 2 (1978): 64–69.
-National Hurricane Center. “Sea, Lake, and Overland Surges from Hurricanes (SLOSH).” Government Resource. NOAA. Accessed December 17, 2018. https://www.nhc.noaa.gov/surge/slosh.php.
-NOAA. “Station Home Page - NOAA Tides & Currents.” Government Resource. Tides and Currents. Accessed December 17, 2018. https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150.
-O’Donnell , James. “Sea Level Rise in Connecticut.” Department of Marine Sciences a nd Connecticut Institute for Res ilience and Climate Adaptation, March 27, 2018. https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf.
-Yaworsky, Lauren. “Sea Level Rise Projections for the State of Connecticut | Draft Report Released | Connecticut Institute for Resilience & Climate Adaptation (CIRCA).” Accessed December 17, 2018. https://circa.uconn.edu/2018/03/27/sea-level-rise-projections-for-the-state-of-connecticut-webinar-recording-available/.
+
+Mendelsohn, Robert, “Economic Model of Flood Control Infrastructure.”
+
+National Hurricane Center. “Sea, Lake, and Overland Surges from Hurricanes (SLOSH).” Government Resource. NOAA. Accessed December 17, 2018. [https://www.nhc.noaa.gov/surge/slosh.php](https://www.nhc.noaa.gov/surge/slosh.php).
+
+NOAA. “Station Home Page - NOAA Tides & Currents.” Government Resource. Tides and Currents. Accessed December 17, 2018. [https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150](https://tidesandcurrents.noaa.gov/stationhome.html?id=8467150).
+
+O’Donnell , James. “Sea Level Rise in Connecticut.” Department of Marine Sciences a nd Connecticut Institute for Res ilience and Climate Adaptation, March 27, 2018. [https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf](https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf).
+
+Yaworsky, Lauren. “Sea Level Rise Projections for the State of Connecticut | Draft Report Released | Connecticut Institute for Resilience & Climate Adaptation (CIRCA).” Accessed December 17, 2018. [https://circa.uconn.edu/2018/03/27/sea-level-rise-projections-for-the-state-of-connecticut-webinar-recording-available/](https://circa.uconn.edu/2018/03/27/sea-level-rise-projections-for-the-state-of-connecticut-webinar-recording-available/).
