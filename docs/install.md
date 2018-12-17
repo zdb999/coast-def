@@ -25,16 +25,13 @@ As shown in [this tutorial](https://colab.research.google.com/drive/1_0oFoE9svyG
 
 To set up the latest version of CoastDef in Colab, simply copy this script into a Colab code block and run it.
 
-``
-import os
+``import os
 import sys
 installed = True
-
 try:
   import gdal
   import pymc3
   import coastdef
-
 except:
   installed = False
   !apt-get update >/dev/null
@@ -42,16 +39,13 @@ except:
   !apt-get install python-gdal -y >/dev/null
   !pip install -r coast-def/requirements.txt > /dev/null
   sys.path.insert(0,'/content/coast-def/')
-  
 if not os.path.isdir("coast-def"):
   installed = False
   !git clone https://github.com/zdb999/coast-def.git >/dev/null
-
 if installed:
   print "Everything is already installed!"
 else:
-  print "Install complete!"
-``
+  print "Install complete!``
 
 # GIS Software
 
