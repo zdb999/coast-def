@@ -71,6 +71,9 @@ This [site](http://financeformulas.net/Present_Value_of_Annuity.html) has a simp
 
 This calculation makes it possible to consider benefit over a long period of time compared to the cost of construction today. There are still many other considerations one must take when deciding upon an interest rate and useful life of the infrastructure, two parameters which factor heavily into this calculation.
 
+## Wall Cost Calculations
+
+$$ PC_{S,T}^{AN}=\frac{U\text{\texttimes}L\text{\texttimes}l\text{\texttimes}(S+MHHW)}{T}*(101\%%) $$
 
 # Sources
 
