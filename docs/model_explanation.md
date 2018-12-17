@@ -24,7 +24,7 @@ Our risk aversion analysis draws heavily from the paper conducted by Attanasi an
 The greatest challenge of quantifying risk aversion comes from the sometimes irrational behavior of individuals. In these two paper (Insert citation), the authors establish that individuals struggle to comprehend the damage that can be associated with very destructive infrequent storms. This irrational behavior leads to results that often do not match the hypothesis of the Von-Neumann Morgenstein expected-utility model. However, the goal of Coast-Def is to rationally assess the damages and weigh the potential benefit from investing significantly in infrastructure. 
 
 
-W_{0}=A+L-PC
+$$ W_{0}=A+L-PC $$
 
 W_{1}=A+L-PC-X
 
