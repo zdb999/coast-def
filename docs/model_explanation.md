@@ -19,9 +19,11 @@ where \(t_{0}=1992\), \(m=1.7\ltimes10^{3}\),and \(b=8.71\ltimes10^{-5}\). Adapt
 Here's a good [site](https://saylordotorg.github.io/text_introduction-to-economic-analysis/s14-04-risk-aversion.html).
 
 
-Our risk aversion analysis draws heavily from the paper conducted by Attanasi and Karlinger “Risk Preferences and Flood Insurance”. In this paper, the authors discuss and conclude that when it comes to insuring for flood damages people are risk averse. Furthermore, they use the Von-Neumann Morgenstein expected-utility model to analyze the significance of the consumers’ choices.  The report 
+Our risk aversion analysis draws heavily from the paper conducted by Attanasi and Karlinger “Risk Preferences and Flood Insurance”. In this paper, the authors discuss and conclude that when it comes to insuring for flood damages people are definitely risk averse. In order to quantify this relationship, they use the Von-Neumann Morgenstein expected-utility model to analyze the significance of the consumers’ choices. 
 
 The greatest challenge of quantifying risk aversion comes from the sometimes irrational behavior of individuals. In these two paper (Insert citation), the authors establish that individuals struggle to comprehend the damage that can be associated with very destructive infrequent storms. This irrational behavior leads to results that often do not match the hypothesis of the Von-Neumann Morgenstein expected-utility model. However, the goal of Coast-Def is to rationally assess the damages and weigh the potential benefit from investing significantly in infrastructure. 
+
+The wealth functions considered are as follows. The variables are defined as follows: $W$ is the final wealth of the individual as expressed in the equation, $A$ is the value of assets not subject to loss in the event of a flood, $L$ the maximum value of assets that are subject to loss in the event of a flood, $C$ the amount of coverage that the insurance company has agreed to provide, $P$ the premium of the policy, $X$ the random damages associated with a hazard event
 
 
 $$ W_{0}=A+L-PC; X=0$$
