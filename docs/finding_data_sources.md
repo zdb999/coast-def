@@ -71,7 +71,7 @@ This is another thing you have to make yourself with GIS. Your wall data should 
 
 ### Surge Height Distributions
 
-One potential source of data for the surge heights is the NOAA SLOSH model, which has some of the most accurate storm surge predictions in the United States. Data derived from this model is incorporated into FEMA's floodmaps. However, finding the raw data has proven to be difficult, and we have been unable to include SLOSH simulation results in our system.
+One potential source of data for the surge heights is the NOAA [SLOSH model](https://slosh.nws.noaa.gov/), which has some of the most accurate storm surge predictions in the United States. Data derived from this model is incorporated into FEMA's floodmaps. However, finding the raw data has proven to be difficult, and we have been unable to include SLOSH simulation results in our system.
 
 Another approach is to try to learn a surge height probability density function (pdf) from water elevation data. We are currently in the processes of developing such a function.
 
