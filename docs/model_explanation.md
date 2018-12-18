@@ -116,7 +116,7 @@ Borsje, B. W., B. K. Van Wesenbeeck, F. Dekker, P. Paalvast, T. J. Bouma, M. M. 
 
 Connecticut Department of Energy & Environmental Protection. “CT ECO 2016 Imagery & Elevation.” Government Resource. University of Connecticut. Accessed December 17, 2018. [https://cteco.uconn.edu/data/flight2016/index.htm](https://cteco.uconn.edu/data/flight2016/index.htm).
 
-Felson, Alexander. “Designed Experiments for Transformational Learning: Forging New Opportunities Through the Integration of Ecological Research Into Design.” ResearchGate. Accessed December 17, 2018. [https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design](https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design).
+Felson, Alexander. “Designed Experiments for Transformational Learning: Forging New Opportunities Through the Integration of Ecological Research Into Design.” ResearchGate. Accessed December 17, 2018.[https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design](https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design).
 
 Fu and Song, “Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection.”Fu and Song, “Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection.”
 
