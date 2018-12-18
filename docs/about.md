@@ -12,6 +12,12 @@ Zach and Briggs are both seniors at Yale University. Zach is pursuing a double m
 
 ## What is a living project?
 
-We hope that CoastDef will continue to grow and improve with time. We want to be useful, and our efforts have focused on providing value to teams which have tried to use the model. We want to facilitate adaptive design, and doing so will require making our tools addapitve.
+We hope that CoastDef will continue to grow and improve with time. We want to be useful, and our efforts have focused on providing value to teams which have tried to use the model. We want to facilitate adaptive design, and doing so will require making our tools addapitve as well.
 
 CoastDef does not yet have full functionality, and is not complete. This is by design. Unlike many academic projects, CoastDef doesn't have a defined endpoint or a definative final report. Rather, we am to share and document everything we do; our Github repository offers a snapshot of the current state of the project.
+
+## Getting Involved
+
+Want to use CoastDef to run your own low cost design expriements? Interesting in contributing your inovations or techniques back to other CoatDef users? Want to dip your toes into geospatial programming? We'd love to have you!
+
+The first place to check out is our [GitHub repository](https://github.com/zdb999/coast-def). You can join one of our [projects](https://github.com/zdb999/coast-def/projects), look at (or submit) an [issue](https://github.com/zdb999/coast-def/issues), and check out the latest and greatest version of the CoastDef software. Finally, if you these terms confuse you, or you have any other questions, don't hesitate to email {{site.email}}](mailto:{{site.email}}.
