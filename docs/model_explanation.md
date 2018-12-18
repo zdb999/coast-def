@@ -111,12 +111,12 @@ This is an example of all of the different factors that one can decide to includ
 
 In order to know net benefit of building a wall, the damage related to surge heights must be calculated. Currently, Coast-Def calculates household flood damage as a linear function with the damage beginning when the storm surge reaches the elevation 2 meters below the house elevation. This point is marked as the lower bound for damage and conceptually represents the point at which a basement would begin to flood. Then the upper bound of damage would be 7 meters about the 1st floor elevation at which point the household would be underwater and condemned due to the massive damages
 
-Damage(\%)=\frac{(Surge-Elevation-LowerBound)}{(Upperbound-LowerBound)}
+$$ Damage(\%)=\frac{(Surge-Elevation-LowerBound)}{(Upperbound-LowerBound)} $$
 
-Surge Height = the elevation of the surge above sea level
-Elevation = the elevation relative to sea level of the first floor of the house
-Lowerbound = The height at which 0% of the house has been damaged
-Upperbound =  The height at which 100% of the house has been damaged
+$ Surge $ = the elevation of the storm surge 
+$ Elevation $ = the elevation relative to sea level of the first floor of the house
+$ Lowerbound $= The height at which 0% of the house has been damaged
+$ Upperbound $ =  The height at which 100% of the house has been damaged
 
 
 
