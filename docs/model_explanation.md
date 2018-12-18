@@ -151,6 +151,7 @@ Conceptually, this summation represents adding the marginal benefit for each inc
 
 At this point in the process the model has produced marginal and total costs from creating walls of varying heights, lengths, and materials and also has produced a comprehensive formula for calculating marginal benefit. The most efficient wall height will occur where $ E(MB)-E(MC) = 0 $. At this point continuing to increase the wall height will cost more than value of the damage being reduced. While this is the point where the difference between total benefit and total cost is greatest, a social planner could for various reasons decide to build a wall taller than this height. Even though this would decrease the portion of the value which is considered "profit" total benefit can still be greatly increased and along with the social welfare topic discussed with risk aversion, governing bodies should consider more than just an optimum allocation when deciding how much protection to provide for a community.
 
+The visual tool that accompanies this data anlysis provides a way to clearly see how the placement and size of walls can be justified. The combination of these two pieces truly makes this model special in its ability to allow engineers, city planners, archetects, and politicians visualization the best allocation of coastal walls.
 
 # Sources
 
