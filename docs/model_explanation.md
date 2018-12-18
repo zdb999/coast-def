@@ -126,7 +126,7 @@ $$ House Value * Damage(\%) = Damage Value $$
 
 The expected marginal benefit of building a wall is the reduction in damage that comes with building a wall that would prevent a surge of the equivalent height. This can be calculated by summing all of Damage Values for every house at the particular surge level. Then multiply the damage value by the frequency (annual probability) of a surge of that height occurring. In addition, the sea level rise (SLR) per year is factored into the frequency to account for the increase in surges of a certain height every year due to the increasing sea level.
 
-$$ E(MB)=f*\sum DamageValue $$ for all houses 
+$$ E(MB)=f*\sum DamageValue for all properties $$ 
 
 This calculation is carried out for the useful life of the wall which should be determined based on quality of materials, dimensions of the wall, terrain, and any number of other factors. Now the expected total value of creating a wall is calculated by summing together all of the marginal benefits associated with every wall height equal to or less than that particular height. 
 
