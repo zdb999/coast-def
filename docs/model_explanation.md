@@ -169,8 +169,6 @@ Fu, Xinyu and Jie Song. “Assessing the Economic Costs of Sea Level Rise and Be
 
 Kunreuther, Howard. Limited Knowledge and Insurance Protection: Implications for Natural Hazard Policy. Springfield, Va.: National Technical Information Service, 1977. [https://catalog.hathitrust.org/Record/102012993](https://catalog.hathitrust.org/Record/102012993).
 
-Kunreuther, Howard, Ralph Ginsberg, Louis Miller, Philip Sagi, Paul Siovic, Bradley Borkan, and Norman Katz. “LIMITED KNOWLEDGE AND INSURANCE PROTECTION,” n.d., 508.
-
 Kunreuther, Howard, and Paul Slovic. “Economics, Psychology, and Protective Behavior.” The American Economic Review 68, no. 2 (1978): 64–69.
 
 Mendelsohn, Robert, “Economic Model of Flood Control Infrastructure.”
