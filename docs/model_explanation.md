@@ -114,9 +114,14 @@ In order to know net benefit of building a wall, the damage related to surge hei
 $$ Damage(\%)=\frac{(Surge-Elevation-LowerBound)}{(Upperbound-LowerBound)} $$
 
 $ Surge $ = the elevation of the storm surge 
+
 $ Elevation $ = the elevation relative to sea level of the first floor of the house
+
 $ Lowerbound $= The height at which 0% of the house has been damaged
+
 $ Upperbound $ =  The height at which 100% of the house has been damaged
+
+$$ House Value * Damage(\%) = Damage Value $$
 
 
 
