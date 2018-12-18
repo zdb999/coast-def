@@ -125,11 +125,13 @@ This percentage is then multiplied by the total value of the house which results
 
 $$ House Value * Damage(\%) = Damage Value $$
 
+Then the 
+
 ## Expected Marginal Benefit of a Coastal Wall
 
 The expected marginal benefit of building a wall is the reduction in damage that comes with building a wall that would prevent a surge of the equivalent height. This can be calculated by summing all of Damage Values for every house at the particular surge level. Then multiply the damage value by the frequency (annual probability) of a surge of that height occurring. In addition, the sea level rise (SLR) per year is factored into the frequency to account for the increase in surges of a certain height every year due to the increasing sea level.
 
-$$ E(MB)=f*\sum DamageValue $$
+$$ E(MB)=f*\sum DamageValue $$ for all houses 
 
 $$ f=1.25+1.11*(Surge-SLR)+0.25(Surge-SLR)^{2} $$
 
