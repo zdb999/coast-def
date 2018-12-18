@@ -102,7 +102,7 @@ $ MHHW $ = mean higher high water level
 
 This calculation serves to predict the cost of creating and maintaining a seawall on a yearly basis. The study then takes this data and creates a present value for all years by summing the values and using an annual discount factor. Shown below:
 
-$$ PC_{S,T}^{NPV}=\sum_{t=0,t\text{\ensuremath{\in}}T}PC_{S,T}^{AN}*(\frac{1}{1+r})^{t} $$
+$$ PC_{S,T}^{NPV}=\sum_{t=0,t=\text{∈}T}PC_{S,T}^{AN}*(\frac{1}{1+r})^{t} $$
 
 This is an example of all of the different factors that one can decide to include in their cost function. The dynamic model can then quickly input this new function and provide a new analysis based on the function.
 
