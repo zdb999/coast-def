@@ -86,7 +86,7 @@ The basic understanding of this function is that for every cubic meter of materi
 
 In a paper by Xinyu Fu and Jie Song ["Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach”](https://www.mdpi.com/2071-1050/9/8/1495) used a much more complicated cost function for the development of sea walls. 
 
-$$ PC_{S,T}^{AN}=\frac{U\text*L\text*l\text*(S+MHHW)}{T}*(101)\%%) $$
+$$ PC_{S,T}^{AN}=\frac{U\text*L\text*I\text*(S+MHHW)}{T}*(101)\%%) $$
 
 $ PC $ = protection costs given S (sea level rise) and T (projection year)
 
