@@ -1,7 +1,11 @@
-
 # Finding Data Sources
 
+The flowchart below shows the CoastDef workflow. Everything in yellow is an oppertunity for a user to supply some type of data.
+
+![CoastDef Flowchart](assets/images/flowchart.bmp)
+
 This guide is intended to help you find the data you need to get started modelling. It is incomplete, and will always be a work in progress. If you have suggestions about other potential data sources, please create a [Github issue](https://github.com/zdb999/coast-def/issues) or email the project's maintainers at [{{site.email}}](mailto:{{site.email}}).
+
 
 ## Geospatial Data for the Model
 
@@ -102,7 +106,5 @@ Our current approach assumes there is a linear relationship between the percenta
 
 Far to often, things that are difficult to measure just don't get counted. This produces injustice and bad policy. One of the goals of our open-ended modeling structure is to encourage people to find new and creative ways to analyze the social, cultural, and political aspects of the human coastal ecosystem. This part of our standard model is still under development.
 
-
-### Risk Aversion
 
 ## Footnotes
