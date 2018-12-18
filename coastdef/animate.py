@@ -1,3 +1,6 @@
+"""Note that this module is full of script-like stuff, and
+is not prepared for public use. It is a work in progress."""
+
 import cv2
 import numpy as np
 from osgeo import gdal, gdalnumeric, ogr, osr
@@ -161,7 +164,7 @@ def animate_flood3(dem_path, water_points, low, high, step, duration):
   back = cv2.imread('sample_data/Seaside.tif')
   over = cv2.imread('sample_data/overlay.png')
 
-  surge = 0.
+  surge = 1.
   # Create and write frames
   for y in range(low, high, 1):
       extentl = geo.flood_extent(img, points, 10*(surge + lib.noaa_global_low(y)))
@@ -175,7 +178,7 @@ def animate_flood3(dem_path, water_points, low, high, step, duration):
       frame[np.where(extentl == 0)] = [173, 80, 52]
 
       out_str = str(y)
-      text_frame = add_text_overlay(frame, out_str, (800,600), 65, "fonts/Vera.ttf", (255,255,255))
+      text_frame = add_text_overlay(frame, out_str, (850,700), 65, "fonts/Vera.ttf", (255,255,255))
       out_frame = cv2.addWeighted(text_frame, .7, back, .3, 0)
 
       out_frame[np.where(over[:,:,1] != 255)] = over[np.where(over[:,:,1] != 255)]

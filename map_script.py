@@ -15,7 +15,9 @@ e1 = cv2.getTickCount()
 
 # make_extent_layer('sample_data/test2.tiff', [(5000, 4000)], 14)
 
-animate_flood2('sample_data/SeasideDEMwalls.tif', [(850, 850)], 0, 30, 1, 1)
+# animate_flood2('sample_data/SeasideDEMwalls.tif', [(850, 850)], 0, 85, 1, 12)
+
+animate_flood3('sample_data/SeasideDEM.tif', [(850, 850)], 2018, 2150, 1, 20)
 
 # animate_flood3('sample_data/test2.tiff', [(5000, 4000)], 98, 100, 1, 1)
 
