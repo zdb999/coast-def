@@ -134,7 +134,8 @@ The expected marginal benefit of building a wall is the reduction in damage that
 $$ E(MB)=f*\sum DamageValue $$ for all houses 
 
 $$ f=1.25+1.11*(Surge-SLR)+0.25(Surge-SLR)^{2} $$
-$$ f=e^{-1*((1+\frac{k((Surge+0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}}-e^{-1*((1+\frac{k((Surge-0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}} $$
+
+$$ f=e^{-1*(1+\frac{k((Surge+0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}}-e^{-1*(1+\frac{k((Surge-0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}} $$
 
 This calculation is carried out for the useful life of the wall which should be determined based on quality of materials, dimensions of the wall, terrain, and any number of other factors. Now the expected total value of creating a wall is calculated by summing together all of the marginal benefits associated with every wall height equal to or less than that particular height. 
 
