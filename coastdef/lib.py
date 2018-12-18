@@ -25,6 +25,8 @@ def quadratic_climate_model(t0,s,b):
 
     return msl
 
+  return out_function
+
 noaa_global_low = quadratic_climate_model(1992, 1.7e-3, 0)
 """NOAA CPO-1 (Parris et al., 2012) Low Estimate"""
 
@@ -39,4 +41,5 @@ noaa_global_high = quadratic_climate_model(1992, 1.7e-3, 1.56e-4)
 
 
 connecticut_intermed_high = quadratic_climate_model(1992, 2.4e-3, 8.71e-5)
-"""NOAA CPO-1 (Parris et al., 2012) Intermediate High Estimate"""
+# """NOAA CPO-1 (Parris et al., 2012) Intermediate High Estimate"""
+
