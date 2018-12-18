@@ -84,7 +84,7 @@ C( H,L ) =3881.4* H 2 *L
 
 The basic understanding of this function is that for every cubic meter of material required to for the wall the price increased $3,881.4. 
 
-Another source used a much more complicated cost function for the development of sea walls. 
+In a paper by Xinyu Fu and Jie Song ["Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach”](https://www.mdpi.com/2071-1050/9/8/1495) used a much more complicated cost function for the development of sea walls. 
 
 $$ PC_{S,T}^{AN}=\frac{U\text*L\text*l\text*(S+MHHW)}{T}*(101)\%%) $$
 
@@ -102,6 +102,7 @@ $ MHHW $ = mean higher high water level
 
 This calculation serves to predict the cost of creating and maintaining a seawall on a yearly basis. The study then takes this data and creates a present value for all years by summing the values and using an annual discount factor. Shown below:
 
+$$ PC_{S,T}^{NPV}=\sum_{t=0,t\text{\ensuremath{\in}}T}PC_{S,T}^{AN}*(\frac{1}{1+r})^{t} $$
 
 This is an example of all of the different factors that one can decide to include in their cost function. The dynamic model can then quickly input this new function and provide a new analysis based on the function.
 
@@ -115,6 +116,8 @@ Borsje, B. W., B. K. Van Wesenbeeck, F. Dekker, P. Paalvast, T. J. Bouma, M. M. 
 Connecticut Department of Energy & Environmental Protection. “CT ECO 2016 Imagery & Elevation.” Government Resource. University of Connecticut. Accessed December 17, 2018. [https://cteco.uconn.edu/data/flight2016/index.htm](https://cteco.uconn.edu/data/flight2016/index.htm).
 
 Felson, Alexander. “Designed Experiments for Transformational Learning: Forging New Opportunities Through the Integration of Ecological Research Into Design.” ResearchGate. Accessed December 17, 2018. [https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design](https://www.researchgate.net/publication/318702469_Designed_Experiments_for_Transformational_Learning_Forging_New_Opportunities_Through_the_Integration_of_Ecological_Research_Into_Design).
+
+Fu, Xinyu and Jie Song. “Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach” Sustainability 9, 1495 (2017).
 
 Kunreuther, Howard. Limited Knowledge and Insurance Protection: Implications for Natural Hazard Policy. Springfield, Va.: National Technical Information Service, 1977. [https://catalog.hathitrust.org/Record/102012993](https://catalog.hathitrust.org/Record/102012993).
 
