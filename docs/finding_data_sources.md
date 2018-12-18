@@ -96,7 +96,7 @@ Most functionals will have a constant component to represent eminent domain cost
 
 ### Damage Estimates
 
-Or current approach assumes there is a linear relationship between the percentage of a building submerged and the damage to that building. This basic approach also seems to be used in FEMA's damage evaluation process. Nevertheless, you are free to substitute your own non-linear function if you wish.
+Our current approach assumes there is a linear relationship between the percentage of a building submerged and the damage to that building. This basic approach also seems to be used in FEMA's damage evaluation process. Nevertheless, you are free to substitute your own non-linear function if you wish.
 
 ### Social Costs of Flooding
 
