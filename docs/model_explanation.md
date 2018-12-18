@@ -133,14 +133,25 @@ The expected marginal benefit of building a wall is the reduction in damage that
 
 $$ E(MB)=f*\sum DamageValue $$ for all houses 
 
-$$ f=1.25+1.11*(Surge-SLR)+0.25(Surge-SLR)^{2} $$
-
-$$ f=e^{-1*(1+\frac{k((Surge+0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}}-e^{-1*(1+\frac{k((Surge-0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}} $$
-
 This calculation is carried out for the useful life of the wall which should be determined based on quality of materials, dimensions of the wall, terrain, and any number of other factors. Now the expected total value of creating a wall is calculated by summing together all of the marginal benefits associated with every wall height equal to or less than that particular height. 
+
+The frequency equations are below. These equations work to estimate the frequency and probability of surges of certain heights based on data provided by local municipalities. $ k $ $ \sigma $ and $ mu $ are values that must be obtained from data collected around the area being analyzed for coastal wall implementation. It is important to note that various areas will have very different coefficients depending how prone they are to floods and many other factors. 
+
+$$ f=1.25+1.11*(Surge-SLR)+0.25(Surge-SLR)^{2} $$ for any point where surge height is less than the inflection point plus the sea level rise due to climate change.
+
+$$ f=e^{-1*(1+\frac{k((Surge+0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}}-e^{-1*(1+\frac{k((Surge-0.01)-(\mu+SLR))}{\sigma})^{-\frac{1}{k}}} $$ for any point where surge height is greater than the inflection point plus the sea level rise due to climate change.
+
+Now on to the Total Benefit equation. In order to find a summation of the positive changes associated with a certain wall height, all of the marginal benefits for each inch added to the wall must be added together in order to to see the total effect. 
 
 $$ E(TB)=\sum E(MB) for all Elevations \leq the Proposed Wall Height Elevation $$
 
+Conceptually, this summation represents adding the marginal benefit for each inch of the wall arriving at the total benefit when all of these inch segments add up to the total wall height under consideration. 
+
+## Optimization
+
+At this point in the process the model has produced marginal and total costs from creating walls of varying heights, lengths, and materials and also has produced a comprehensive formula for calculating marginal benefit. The most efficient wall height will occur where $ E(MB)-E(MC) = 0 $. At this point continuing to increase the wall height will cost more than value of the damage being reduced. While this is the point where the difference between total benefit and total cost is greatest, a social planner could for various reasons decide to build a wall taller than this height. Even though this would decrease the portion of the value which is considered "profit" total benefit can still be greatly increased and along with the social welfare topic discussed with risk aversion, governing bodies should consider more than just an optimum allocation when deciding how much protection to provide for a community.
+
+The visual tool that accompanies this data anlysis provides a way to clearly see how the placement and size of walls can be justified. The combination of these two pieces truly makes this model special in its ability to allow engineers, city planners, archetects, and politicians visualization the best allocation of coastal walls.
 
 # Sources
 
@@ -157,8 +168,6 @@ Fu and Song, “Assessing the Economic Costs of Sea Level Rise and Benefits of C
 Fu, Xinyu and Jie Song. “Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach” Sustainability 9, 1495 (2017).
 
 Kunreuther, Howard. Limited Knowledge and Insurance Protection: Implications for Natural Hazard Policy. Springfield, Va.: National Technical Information Service, 1977. [https://catalog.hathitrust.org/Record/102012993](https://catalog.hathitrust.org/Record/102012993).
-
-Kunreuther, Howard, Ralph Ginsberg, Louis Miller, Philip Sagi, Paul Siovic, Bradley Borkan, and Norman Katz. “LIMITED KNOWLEDGE AND INSURANCE PROTECTION,” n.d., 508.
 
 Kunreuther, Howard, and Paul Slovic. “Economics, Psychology, and Protective Behavior.” The American Economic Review 68, no. 2 (1978): 64–69.
 

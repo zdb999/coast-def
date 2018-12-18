@@ -7,9 +7,9 @@ This guide is intended to help you find the data you need to get started modelli
 
 ### DEM Data
 
-CoastDef needs digital elevation data to simulate flooding conditions. That data must come in a GeoTIFF format; GeoTIFF can be opened by ordinary image views but contaion special metadata about their geographic location. Each pixel represents an an x-y coordinate pair, while the "color" represents the elevation.[^1]
+CoastDef needs digital elevation data to simulate flooding conditions. That data must come in a GeoTIFF format; GeoTIFF can be opened by ordinary image views but contain special metadata about their geographic location. Each pixel represents an an x-y coordinate pair, while the "color" represents the elevation.[^1]
 
-[^1]: Confusingly, this third demension often has a different scale, so you should check the metadata that comes with the file.
+[^1]: Confusingly, this third dimension often has a different scale, so you should check the metadata that comes with the file.
 
 There is free digital elevation data available for just about everywhere in the world. If you have access to it, Esri's catalog has many raster lidar datasets to chose from, with a multitude of sources and resolutions.
 
@@ -19,9 +19,9 @@ For US-based analyses, one of the best DEM sources is the National Oceanic and A
 
 The Data Viewer has a host of tools that make getting the DEM you need easy. You can clip the data to the area you wish to analyze, change the units and projection reference, and fill in measurement holes in the lidar grid. You can also get "land" lidar data, which excludes pixels over water and buildings. Whether you want this last feature depends on your CoastDef data processing workflow.
 
-The examples for this project were downloaded with NOAA's Data Access Viewer, and were drawn from Conneticut's 2016 [Orthophotography and Lidar survey](https://cteco.uconn.edu/data/flight2016/index.htm).
+The examples for this project were downloaded with NOAA's Data Access Viewer, and were drawn from Connecticut’s 2016 [Orthophotography and Lidar survey](https://cteco.uconn.edu/data/flight2016/index.htm).
 
-GeoTIFFs are not designed to be directly interpredeted with human eyes, so don't worry if you can't see anything when you open it.
+GeoTIFFs are not designed to be directly interpreted with human eyes, so don't worry if you can't see anything when you open it.
 
 
 ### Water Points
@@ -48,22 +48,22 @@ You can input as many water points as you like, and sometimes having multiple po
 
 ### Property Values 
 
-Property values data is very siloed, and the few people (Realtors) who have comprehensvie databases gaurd them furiously. The best source of structural value data is your local appraiser; tax data is usually a mater of public record. Many jursitictions also post GIS data files online; however, everyone's format and schema are a bit different. If you want accurate results, you will probably have to invest some time and effort into aquiring, cleaning, and integrating data.
+Property values data is very siloed, and the few people (Realtors) who have comprehensive databases guard them furiously. The best source of structural value data is your local appraiser; tax data is usually a mater of public record. Many jurisdictions also post GIS data files online; however, everyone's format and schema are a bit different. If you want accurate results, you will probably have to invest some time and effort into acquiring, cleaning, and integrating data.
 
-There are two notable national sources that would be particularly useful when modeling how housing values change over time. (The are too coarse to give good estimates about induvidual houses.) The first is [Zillow](https://www.zillow.com/research/data/), which has a tremendous amount of data about real estate transactions, which they make partially availible to the public. The seccond is the Federal Housing Finance Agency's [House Price Index (HPI)](https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index.aspx), a particularly valueable tool for including housing trends in your models.
+There are two notable national sources that would be particularly useful when modeling how housing values change over time. (The are too coarse to give good estimates about individual houses.) The first is [Zillow](https://www.zillow.com/research/data/), which has a tremendous amount of data about real estate transactions, which they make partially available to the public. The second is the Federal Housing Finance Agency's [House Price Index (HPI)](https://www.fhfa.gov/DataTools/Downloads/Pages/House-Price-Index.aspx), a particularly valuable tool for including housing trends in your models.
 
 ### Structure Outlines Data
 
-To accomplish many taks, CoastDef needs to know the locations of the buildings in your model. Structural location data is necessary to
+To accomplish many tasks, CoastDef needs to know the locations of the buildings in your model. Structural location data is necessary to
 
 - Find the values and locations of buildings 
-- Estimate what shape of the terrain with buildings removed. This in necssesary because otherwise buildings would never be treated as "flooded" unless their roofs were fully submerged.
+- Estimate what shape of the terrain with buildings removed. This in necessary because otherwise buildings would never be treated as "flooded" unless their roofs were fully submerged.
 
 You can find data for both of these things directly, in which case building shapefiles are not necessary. If you do need them though, they are easy to find, particularly with the United States. Microsoft, for example, has used a ResNet machine learning system to extract building shapefiles for all 50 US states. You can download that data [here](https://github.com/Microsoft/USBuildingFootprints/).
 
 ### Wall Data
 
-This is another thing you have to make yourself with GIS. Your wall data should be formated as polyline shapefiles, and they should follow the path of you proposed sea walls, berms, or gates. Each wall should have a "height" attribute; this will tell CoastDef how high to simulate your wall.[^4] You can also put data in other fields if you want to differentiate between your walls in another way.
+This is another thing you have to make yourself with GIS. Your wall data should be formatted as polyline shapefiles, and they should follow the path of you proposed sea walls, berms, or gates. Each wall should have a "height" attribute; this will tell CoastDef how high to simulate your wall.[^4] You can also put data in other fields if you want to differentiate between your walls in another way.
 
 [^4]: When developed, CoastDef's wall height optimization feature will ignore this datum.
 
@@ -77,7 +77,7 @@ Another approach is to try to learn a surge height probability density function 
 
 ### Sea Level Rise
 
-There is a lot of uncertainty extrapolated climate models, and we capture this uncertainty. CoastDef has built-in functions representing NOAA Global Mean Sea Level projections under multiple scenarios. There are also built-in functions adapting those models to the local circumstances in Conneticut. Your model can be a weighted mix of these models, or you can develop your own. You can even "train" your model on actual data using Bayesian inference.
+There is a lot of uncertainty extrapolated climate models, and we capture this uncertainty. CoastDef has built-in functions representing NOAA Global Mean Sea Level projections under multiple scenarios. There are also built-in functions adapting those models to the local circumstances in Connecticut. Your model can be a weighted mix of these models, or you can develop your own. You can even "train" your model on actual data using Bayesian inference.
 
 ### Wall Costs
 
@@ -88,11 +88,11 @@ You will need to supply a function $ f(x)$  which gives the cost of the wall per
 $$C=\intop_{x_{1}}^{x_{2}}f(x(t),y(t))dt
  $$
 
-Where $x(t)$ and $y(t)$ are parametrized equations for the the wall. To have a constant cost per unit left, just ignore the height and elevation variables and use,
+Where $x(t)$ and $y(t)$ are parameterized equations for the the wall. To have a constant cost per unit left, just ignore the height and elevation variables and use,
 
-$$ f(x)=const $$
+$$ f(x)=cost $$
 
-Most functionals will have a constant component to represent eminent domain costs.
+Most functional will have a constant component to represent eminent domain costs.
 
 ### Damage Estimates
 
