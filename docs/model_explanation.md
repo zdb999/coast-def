@@ -57,7 +57,7 @@ $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider $k_{1}$ as the probability the discharges are less than $ Q_{0} $. $ k_{2} $ being the probability the discharge is greater than $ Q_{T} $. 
 
-We have decided from the research presented above to use a Von-Neumann Morgenstein expected-utility model to consider risk aversion. This means that we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster.
+We have decided from the research presented above to use a Von-Neumann Morgenstein expected-utility model to consider risk aversion. This means that the benefit from preventing damage will be marginally larger. Additionally, we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster that will also be seen as a benefit to disaster prevention.
 
 ## Present Value Calculations
 
@@ -65,7 +65,7 @@ One of the most important features of any model aiming to include a cost benefit
 
 $$ PV=P\left[\frac{1-(1+r)^{-n})}{r}\right] $$
 
-where $ P $ is the value per year, $ r $ is the annual discount rate, and $ n $ is number of years.
+Where $ P $ is the value per year, $ r $ is the annual discount rate, and $ n $ is number of years.
 
 This [site](http://financeformulas.net/Present_Value_of_Annuity.html) has a simple calculator that lets you explore this equation. Using this formula, we can create a present value for all of the future costs and benefits of investing in infrastructure.
 
@@ -74,11 +74,11 @@ This calculation makes it possible to consider benefit over a long period of tim
 ## Wall Cost Calculations
 
 
-Creating a cost analysis for building coastal walls can be very tricky. Many different projects have used very different approaches to predicting costs. Every project has different requirements, designs necessities, and locations. All of these factors specifically the terrain at a location can cause the cost of construction to vary greatly between difference sites or even between different spots along the same wall. For example, building a wall along a wetland causes complications when trying to set concrete into the ground that do not exist when working with dry firm soil. The added costs of better materials and more excavation work lead to increased costs and a different cost function. This variance makes it impossible to create one equation for construction costs that accurately represents all coastal wall designs. For that very reason, our dynamic model has the capability to substitute separate cost functions seamlessly in order to better represent the cost function associated with that specific projected plan. 
+Creating a cost analysis for building coastal walls can be very tricky. Many different projects have used very different approaches to predicting costs. Every project has different requirements, designs necessities, and locations. All of these factors specifically the terrain at a location can cause the cost of construction to vary greatly between difference sites or even between different spots along the site. For example, building a wall along a wetland causes complications when trying to set concrete into the ground that do not exist when working with dry firm soil. The added costs of better materials and more excavation work lead to increased costs and a different cost function. This variance makes it impossible to create one equation for construction costs that accurately represents all coastal wall designs. For that very reason, our dynamic model has the capability to substitute separate cost functions seamlessly in order to better represent the cost function associated with that specific projected plan. 
 
-Examples of the various cost functions that can be used are as follows…
+Examples of the various cost functions that can be used are as follows:
 
-The model provided by professor Mendelsohn used a cost function that varied linearly with the length of the desired wall and exponentially becoming more expensive with increases in the height. The cost function was
+The model provided by professor Robert Mendelsohn of Yale University used a cost function that varied linearly with the length of the desired wall and exponentially becoming more expensive with increases in the height. The cost function was
 
 $$ C( H,L ) = 3881.4* H 2 *L $$
 
@@ -109,7 +109,7 @@ This is an example of all of the different factors that one can decide to includ
 
 ## Household Damage Calculation
 
-In order to know net benefit of building a wall, the damage related to surge heights must be calculated. Currently, Coast-Def calculates household flood damage as a linear function with the damage beginning when the storm surge reaches the elevation 2 meters below the house elevation. This point is marked as the lower bound for damage and conceptually represents the point at which a basement would begin to flood. Then the upper bound of damage would be 7 meters about the 1st floor elevation at which point the household would be underwater and condemned due to the massive damages
+In order to know the net benefit of building a wall, the damage related to surge heights must be calculated. Currently, Coast-Def calculates household flood damage as a linear function. The function begins to calculate damage when the storm surge comes within 2 meters of the the first floor elevation. The damage beginning when the storm surge reaches the elevation 2 meters below the house elevation. This point is marked as the lower bound for damage and conceptually represents the point at which a basement would begin to flood. Then the upper bound of damage would be 7 meters about the 1st floor elevation at which point the household would be underwater and condemned due to the massive damages
 
 $$ Damage(\%)=\frac{(Surge-Elevation-LowerBound)}{(Upperbound-LowerBound)} $$
 
@@ -125,7 +125,6 @@ This percentage is then multiplied by the total value of the house which results
 
 $$ House Value * Damage(\%) = Damage Value $$
 
-Then the 
 
 ## Expected Marginal Benefit of a Coastal Wall
 
@@ -151,7 +150,7 @@ Conceptually, this summation represents adding the marginal benefit for each inc
 
 At this point in the process the model has produced marginal and total costs from creating walls of varying heights, lengths, and materials and also has produced a comprehensive formula for calculating marginal benefit. The most efficient wall height will occur where $ E(MB)-E(MC) = 0 $. At this point continuing to increase the wall height will cost more than value of the damage being reduced. While this is the point where the difference between total benefit and total cost is greatest, a social planner could for various reasons decide to build a wall taller than this height. Even though this would decrease the portion of the value which is considered "profit" total benefit can still be greatly increased and along with the social welfare topic discussed with risk aversion, governing bodies should consider more than just an optimum allocation when deciding how much protection to provide for a community.
 
-The visual tool that accompanies this data anlysis provides a way to clearly see how the placement and size of walls can be justified. The combination of these two pieces truly makes this model special in its ability to allow engineers, city planners, archetects, and politicians visualization the best allocation of coastal walls.
+The visual tool that accompanies this data anlysis provides a way to clearly see how the placement and size of walls can be justified. The combination of these two pieces truly makes this model special in its ability to allow engineers, city planners, archetects, and policymakers visualization the best allocation of coastal walls.
 
 # Sources
 
