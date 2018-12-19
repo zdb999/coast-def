@@ -1,6 +1,6 @@
 # Welcome to CoastDef
 
-CoastDef, short for Flood Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
+CoastDef, short for Costal Defense, is a modeling tool that helps scientists, engineers, designeers, economists and engaged citizens analyze and plan for coastal flooding. It abstracts away as much of the programming details as possible, while giving users tools to make innovative, powerful models quickly.
 
 CoastDef focuses on two questions. First, it aims to model where storm surges cause flooding using geospatial analysis. Secondly, it hopes to help us design sensible adaptation strategies by weighing the costs and benefits of flood control infrastructure. For more on our values and goals, click [here](https://zdb999.github.io/coast-def/about.html).
 
