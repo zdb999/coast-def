@@ -20,6 +20,6 @@ This video illustrates how flooding patterns change after a defensive wall is bu
 
 ## Climate Change Modeling
 
-This video illustrates how uncertainty in climate change models can cause massive impacts down the road. It depicts how the flood extent of a small storm (with a storm surge of approximately one foot) will shift with climate change under different long-term modeling assumptions.
+This video illustrates how uncertainty in climate change models can cause massive impacts down the road. It depicts how the flood extent of a small storm (with a storm surge of approximately one foot) will shift with climate change under different long-term modeling assumptions. 
 
 <div class="video-container"><iframe src="https://drive.google.com/file/d/1C3Ahy7rBEHPJPNO-KQXx2DD5broqWE0Z/preview" width="640" height="480"></iframe></div>
