@@ -102,6 +102,10 @@ Most functional will have a constant component to represent eminent domain costs
 
 Our current approach assumes there is a linear relationship between the percentage of a building submerged and the damage to that building. This basic approach also seems to be used in FEMA's damage evaluation process. Nevertheless, you are free to substitute your own non-linear function if you wish.
 
+### Risk Aversion
+
+The risk aversion assumption of this model is that people are risk averse. Our current approach relies heavily on using data from decisions consumers make about flood insurance policies. From this data we have monetary values that individuals place on protection. This data can be found in various reports by economists and insurance companies published for given areas. From this data, we can calculate coefficient values. These values coefficients represent the amount that marginal benefit should be increased in order to accurately represent individuals' preferences. 
+
 ### Social Costs of Flooding
 
 Far to often, things that are difficult to measure just don't get counted. This produces injustice and bad policy. One of the goals of our open-ended modeling structure is to encourage people to find new and creative ways to analyze the social, cultural, and political aspects of the human coastal ecosystem. This part of our standard model is still under development.
