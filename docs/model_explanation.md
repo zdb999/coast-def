@@ -14,7 +14,7 @@ where \(t_{0}=1992\), \(m=1.7\ltimes10^{3}\),and \(b=8.71\ltimes10^{-5}\). Adapt
 
 ## Risk aversion
 
-Here's a good [site](https://saylordotorg.github.io/text_introduction-to-economic-analysis/s14-04-risk-aversion.html).
+
 
 The common practice of government entities when assessing disaster mitigation is to run a cost benefit analysis assuming risk neutrality and allocate funding efficiently on that basis. This risk neutral approach is easily justifiable because it allows for funds to be equitably allocated so that every dollar spent on disaster prevention is used to prevent destruction of a greater value.
 
@@ -53,7 +53,7 @@ $$ +(1-exp\{-\alpha W_{4}[X(Q)]\})k_{2} $$
 
 This equation expressing the calculation of utility consider $k_{1}$ as the probability the discharges are less than $ Q_{0} $. $ k_{2} $ being the probability the discharge is greater than $ Q_{T} $. 
 
-We have decided from the research presented above to use a Von-Neumann Morgenstein expected-utility model to consider risk aversion. This means that the benefit from preventing damage will be marginally larger. Additionally, we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster that will also be seen as a benefit to disaster prevention.
+We have decided from the research presented above to use a [Von-Neumann Morgenstein expected-utility model](https://saylordotorg.github.io/text_introduction-to-economic-analysis/s14-04-risk-aversion.html) to consider risk aversion. This means that the benefit from preventing damage will be marginally larger. Additionally, we plan on assigning a monetary value to the inconvenience and cost of relocating after a flood disaster that will also be seen as a benefit to disaster prevention.
 
 ## Present Value Calculations
 
@@ -69,7 +69,6 @@ This calculation makes it possible to consider benefit over a long period of tim
 
 ## Wall Cost Calculations
 
-
 Creating a cost analysis for building coastal walls can be very tricky. Many different projects have used very different approaches to predicting costs. Every project has different requirements, designs necessities, and locations. All of these factors specifically the terrain at a location can cause the cost of construction to vary greatly between difference sites or even between different spots along the site. For example, building a wall along a wetland causes complications when trying to set concrete into the ground that do not exist when working with dry firm soil. The added costs of better materials and more excavation work lead to increased costs and a different cost function. This variance makes it impossible to create one equation for construction costs that accurately represents all coastal wall designs. For that very reason, our dynamic model has the capability to substitute separate cost functions seamlessly in order to better represent the cost function associated with that specific projected plan. 
 
 Examples of the various cost functions that can be used are as follows:
@@ -80,7 +79,7 @@ $$ C( H,L ) = 3881.4* H 2 *L $$
 
 The basic understanding of this function is that for every cubic meter of material required to for the wall the price increased $3,881.4. 
 
-In a paper by Xinyu Fu and Jie Song ["Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach”](https://www.mdpi.com/2071-1050/9/8/1495) used a much more complicated cost function for the development of sea walls. 
+The paper by Xinyu Fu and Jie Song ["Assessing the Economic Costs of Sea Level Rise and Benefits of Coastal Protection: A Spatiotemporal Approach”](https://www.mdpi.com/2071-1050/9/8/1495) used a much more complicated cost function for the development of sea walls. 
 
 $$ PC_{S,T}^{AN}=\frac{U\text*L\text*I\text*(S+MHHW)}{T}*(101)\%%) $$
 
@@ -101,11 +100,11 @@ This calculation serves to predict the cost of creating and maintaining a seawal
 $$ PC_{S,T}^{NPV}=\sum_{t=0}^{T}PC_{S,T}^{AN}*(\frac{1}{1+r})^{t} $$
 
 
-This is an example of all of the different factors that one can decide to include in their cost function. The dynamic model can then quickly input this new function and provide a new analysis based on the function.
+This is an example of all of the different factors that one can decide to include in their cost function. The useful aspect of using a dynamic model is that both simple and extremely complex functions can be easily interchanged to provide the right analysis for a given situation. 
 
 ## Household Damage Calculation
 
-In order to know the net benefit of building a wall, the damage related to surge heights must be calculated. Currently, Coast-Def calculates household flood damage as a linear function. The function begins to calculate damage when the storm surge comes within 2 meters of the the first floor elevation. The damage beginning when the storm surge reaches the elevation 2 meters below the house elevation. This point is marked as the lower bound for damage and conceptually represents the point at which a basement would begin to flood. Then the upper bound of damage would be 7 meters about the 1st floor elevation at which point the household would be underwater and condemned due to the massive damages
+In order to know the net benefit for residential properties of building a wall, the damage related to surge heights must be calculated. Currently, Coast-Def calculates the household flood damage as a linear function. The function begins to calculate damage when the storm surge comes within 2 meters of the the first floor elevation. The damage beginning when the storm surge reaches the elevation 2 meters below the house elevation. This point is marked as the lower bound for damage and conceptually represents the point at which a basement would begin to flood. Then the upper bound of damage would be 7 meters about the 1st floor elevation at which point the household would be underwater and condemned due to the massive damages
 
 $$ Damage(\%)=\frac{(Surge-Elevation-LowerBound)}{(Upperbound-LowerBound)} $$
 
@@ -120,7 +119,6 @@ $ Upperbound $ =  The height at which 100% of the house has been damaged
 This percentage is then multiplied by the total value of the house which results in the damage incurred due to a particular storm surge height. Shown below:
 
 $$ House Value * Damage(\%) = Damage Value $$
-
 
 ## Expected Marginal Benefit of a Coastal Wall
 
