@@ -1,20 +1,38 @@
 # Model Explanation
 
-## Sea level
+## Sea Level Rise
 
-### An example of what we can do
+So far, we have primarily used the equations contained in [Sea Level Rise in Connecticut](https://circa.uconn.edu/wp-content/uploads/sites/1618/2017/10/SeaLevelRiseConnecticutFinalDraft-Posted-3_27_18.pdf), a recent report produced at the University of Connecticut with support from the Connecticut state government.
 
-To create the “Intermediate High” projection, the orange line in Figure 1, the CPO-1 report averaged the results of Vermeer and Rahmstorf (2009) and Grinsted et al. (2009). They then approximated the time evolution by a quadratic function
+The various projections all took the form
 
-\[ E(t)=m\left(t-t_{0}\right)+b\left(t-t_{0}\right)^{2} \]
+$$ z(t)=s(t-t_{0})+b(t-t_{0})^{2} $$
 
-where \(t_{0}=1992\), \(m=1.7\ltimes10^{3}\),and \(b=8.71\ltimes10^{-5}\). Adapting this for Conneticut's subsistence rate to get produces 
+Where $z(t)$ is the rise in mean sea level, $ t_{0}=1992 $, $s$ and $b$ are model specific coefficients.
 
-\[ E(t)=\left(0.0007+m\right)\left(t-t_{0}\right)+b\left(t-t_{0}\right)^{2} \]
+### Global Model Coefficients
 
-## Risk aversion
+These values are from NOAA CPO-1. They are international estimates of Global Mean Sea Level as a function of the year.
+
+| Model Name | $s$ | $b$ |
+| :-------: | :---: | :---: |
+| Low       | 1.7e-3 | 0    |
+| Intermediate Low | 1.7e-3 | 2.71e-5 |
+| Intermediate High | 1.7e-3 | 8.71e-5 |
+| High | 1.7e-3 | 1.56e-4 |
+
+### Conneticut Model Coefficients
+
+These values draw from literature like the CPO-1 and empirical Connecticut data to produce more accurate localized estimates for the Long Island Sound.
+
+| Model Name | $s$ | $b$ |
+| :-------: | :---: | :---: |
+| Linear Extrapolation  | 4.0e-3 | 0  |
+| Semi Emperical | 2.4e-3 | 8.71e-5 |
+| Ice Budget | 2.4e-3 | 1.56e-4 |
 
 
+## Risk Aversion
 
 The common practice of government entities when assessing disaster mitigation is to run a cost benefit analysis assuming risk neutrality and allocate funding efficiently on that basis. This risk neutral approach is easily justifiable because it allows for funds to be equitably allocated so that every dollar spent on disaster prevention is used to prevent destruction of a greater value.
 
