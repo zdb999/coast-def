@@ -21,7 +21,7 @@ These values are from NOAA CPO-1. They are international estimates of Global Mea
 | Intermediate High | 1.7e-3 | 8.71e-5 |
 | High | 1.7e-3 | 1.56e-4 |
 
-### Conneticut Model Coefficients
+### Connecticut Model Coefficients
 
 These values draw from literature like the CPO-1 and empirical Connecticut data to produce more accurate localized estimates for the Long Island Sound.
 
